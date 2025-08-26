@@ -1,0 +1,4 @@
+f = open("numbers.txt", "x")
+with open("numbers.txt", "w") as f:
+    for i in range(1, 6):
+        f.write(f"{i}\n")
